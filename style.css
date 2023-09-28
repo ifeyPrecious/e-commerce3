@@ -4,6 +4,7 @@
   box-sizing: border-box;
   outline: none;
   font-family: "Merriweather", serif;
+
 }
 /* top navbar */
 .top-navbar {
@@ -81,8 +82,8 @@
   margin-bottom: 6px;
 }
 #logo span {
-  /* color: #ffc800; */
-  color: blue;
+  color: #ffc800;
+  /* color: rgba(16, 215, 241, 0.8); */
 }
 #logo #span1 {
   font-size: 30px;
@@ -95,23 +96,23 @@
 }
 .nav-item .nav-link {
   /* color: white; */
-  color: blue;
+  color:  black;
   margin-left: 2px;
   text-shadow: 0px 0px 1px black;
   transition: 0.5s ease;
 }
 .nav-item .nav-link:hover {
-  /* color: #ffc800; */
-  color: black;
+  color: #ffc800;
+  /* color: black; */
 }
 .dropdown-menu li a {
   /* color: white; */
-  color: blue;
+  color: rgba(16, 215, 241, 0.8);
   transition: 0.5s ease;
 }
 .dropdown-menu li a:hover {
   /* background-color: rgb(67 0 86); */
-  background-color: blue;
+  background-color: rgba(16, 215, 241, 0.8);
   /* color: #ffc800; */
   color: black;
 }
@@ -124,7 +125,7 @@
   color: white;
   /* border: 1px solid #ffc800; */
   /* background-color: #ffc800; */
-  background-color: blue;
+  background-color: rgba(16, 215, 241, 0.8);
 }
 /* navbar */
 
@@ -159,14 +160,13 @@
   align-items: center;
   text-align: center;
   padding: 20px;
-  color: blue;
+  color: rgba(16, 215, 241, 0.8);
 }
 #home h5 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: blue;
+  color: rgba(16, 215, 241, 0.8);
 }
-
 #home h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
@@ -180,7 +180,7 @@
 }
 
 #home button {
-    background-color: rgba(16, 215, 241, 0.8);
+  background-color: rgba(16, 215, 241, 0.8);
   color: black;
   padding: 10px 20px;
   border: none;
@@ -193,7 +193,7 @@
 }
 
 #home button:hover {
-  background-color:blue;
+  background-color: rgba(16, 215, 241, 0.8);
   color: white;
 }
 
@@ -216,7 +216,7 @@
   margin-top: 30px;
   width: 100%;
 }
- 
+
 .btn {
   margin-left: 13px;
 }
@@ -232,7 +232,7 @@
   cursor: pointer;
 } */
 .btn button:hover {
-  background-color: blue;
+  background-color: rgba(16, 215, 241, 0.8);
   color: black;
   border: none;
 }
@@ -313,26 +313,26 @@
   color: black;
 }
 #banner button {
-    background-color: rgba(16, 215, 241, 0.8);
+  background-color: rgba(16, 215, 241, 0.8);
 }
 #banner button:hover {
-  background-color: blue;
+  background-color:  rgba(16, 215, 241, 0.8);
   color: black;
 }
 
 /* featured====================== */
 .borderrr,
 .borderr h3 {
-  color: blue;
+  color:  rgba(16, 215, 241, 0.8);
   text-shadow: 1px 1px 1px skyblue;
   border-bottom: 2px solid skyblue;
 }
 
-button.buy-btn{
-background-color: aqua;
-color: #000;
+button.buy-btn {
+  background-color: rgba(16, 215, 241, 0.8);
+  color: #000;
 }
-button.buy-btn:hover{
+button.buy-btn:hover {
   background-color: black;
   color: white;
 }
@@ -353,7 +353,7 @@ button.buy-btn:hover{
   position: absolute;
   top: 0;
   left: 0;
-  color: burlywood;
+  color: rgba(16, 215, 241, 0.8);
   font-weight: bold;
   transition: 4s ease;
   opacity: 0.8;
@@ -362,7 +362,7 @@ button.buy-btn:hover{
   height: 100%;
 }
 #new .one .details:hover {
-    background-color: rgba(16, 215, 241, 0.8);
+  background-color: rgba(16, 215, 241, 0.8);
 }
 button {
   background-color: #000;
@@ -372,8 +372,8 @@ button {
   width: 100px;
 }
 button:hover {
-    background-color: rgba(16, 215, 241, 0.8);
-    color: black;
+  background-color: rgba(16, 215, 241, 0.8);
+  color: black;
 }
 #new .one:nth-child(1) .details {
   display: flex;
@@ -555,7 +555,7 @@ button:hover {
   padding: 0 0 30px 0px;
   color: white;
   font-size: 14px;
-  background-color:blue;
+  background-color:  rgba(16, 215, 241, 0.8);
   margin-top: 100px;
 }
 #footer .footer-top {
@@ -580,7 +580,7 @@ button:hover {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  color: blue;
+  color:  black;
 }
 #footer .footer-top h4 {
   font-size: 16px;
@@ -593,7 +593,7 @@ button:hover {
   margin-top: 10px;
 }
 #footer .footer-top .footer-links h4 {
-  color: blue;
+  color: black;
 }
 #footer .footer-top .footer-links ul {
   list-style: none;
@@ -607,14 +607,14 @@ button:hover {
 }
 #footer .footer-top .footer-links ul li a {
   text-decoration: none;
-  color: blue;
+  color: black;
   display: inline-block;
   line-height: 1;
   font-weight: bold;
   transition: 0.5s ease;
 }
 #footer .footer-top .footer-links ul li a:hover {
-  color: aqua;
+  color: #ffc800;;
 }
 #footer .footer-top .socail-links a {
   font-size: 18px;
@@ -631,7 +631,7 @@ button:hover {
   transition: 0.5s ease;
 }
 #footer .footer-top .socail-links a:hover {
-  background-color: blue;
+  background-color: #ffc800;;
   color: black;
 }
 #footer .copyright {
@@ -645,6 +645,12 @@ button:hover {
 }
 #footer .credits a {
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+  #footer {
+ 
+}
 }
 /* footer */
 
@@ -666,13 +672,13 @@ html {
 #login {
   width: 65%;
   height: 70vh;
-  background-color: rgb(67 0 86);
+  background-color:  rgba(16, 215, 241, 0.8);
   margin-top: 35px;
   border-radius: 10px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 #side1 h3 {
-  color: blue;
+  color:  black;
   font-weight: bold;
   margin-top: 200px;
 }
@@ -683,7 +689,7 @@ html {
 }
 #side2 h3 {
   margin-top: 30px;
-  color: blue;
+  color: black;
   font-weight: bold;
   text-shadow: 0px 1px 1px black;
 }
@@ -691,7 +697,7 @@ html {
   margin-top: 15px;
   width: 300px;
   border: none;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid rgba(16, 215, 241, 0.8);
 }
 
 .input2 input ::placeholder {
@@ -704,7 +710,7 @@ html {
   padding: 10px;
   text-decoration: none;
   border-radius: 15px;
-  background-color: blue;
+  background-color:  rgba(16, 215, 241, 0.8);
   color: white;
   font-weight: bold;
   border: none;
@@ -734,7 +740,7 @@ html {
 }
 #about h3 {
   font-weight: bold;
-  color:blue;
+  color:  rgba(16, 215, 241, 0.8);
   text-shadow: 0px 1px 1px black;
 }
 #about button {
@@ -754,13 +760,13 @@ html {
 #contact .card {
   height: 80px;
   margin-top: 20px;
-  box-shadow:  rgba(16, 215, 241, 0.8) 0px 0px 2px 0px;
+  box-shadow: rgba(16, 215, 241, 0.8) 0px 0px 2px 0px;
 }
 #contact .card i {
   margin-top: 10px;
   margin-left: 10px;
   font-size: 15px;
-  color: rgba(16, 215, 241, 0.8); 
+  color: rgba(16, 215, 241, 0.8);
   font-weight: bold;
   letter-spacing: 3px;
 }
@@ -769,7 +775,6 @@ html {
   margin-top: 10px;
   letter-spacing: 3px;
   font-weight: bold;
-  
 }
 .messagebtn button {
   margin-top: 30px;
@@ -783,7 +788,7 @@ html {
   color: black;
 }
 .messagebtn button:hover {
-  background-color:blue;
+  background-color:  rgba(16, 215, 241, 0.8);
   color: black;
 }
 /* contact */
@@ -795,4 +800,3 @@ html {
   flex-basis: 24%;
   cursor: pointer;
 }
- 
