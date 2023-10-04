@@ -6,7 +6,7 @@
   font-family: "Merriweather", serif;
 
 }
-/* top navbar */
+/* top navbar------------------- */
 .top-navbar {
   display: flex;
   justify-content: space-between;
@@ -71,12 +71,14 @@
 /* navbar */
 #navbar {
   /* background-color: rgb(67 0 86); */
-  background-color: rgba(16, 215, 241, 0.8);
+  /* background-color: rgba(16, 215, 241, 0.8); */
+  background-image:radial-gradient(circle, #17232e, #000000) ;
 }
 #logo {
   margin-left: 15px;
   /* color: white; */
-  color: black;
+  color: #ffc800;
+  /* color: black; */
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 6px;
@@ -95,8 +97,8 @@
   margin-left: 10px;
 }
 .nav-item .nav-link {
-  /* color: white; */
-  color:  black;
+  color: white;
+  /* color:  black; */
   margin-left: 2px;
   text-shadow: 0px 0px 1px black;
   transition: 0.5s ease;
@@ -539,7 +541,7 @@ button:hover {
     width: 150px;
   }
   #subscribe {
-    width: 150px;
+    width: 152px;
   }
 }
 /* newslater */
@@ -550,17 +552,18 @@ button:hover {
   }
 }
 
-/* footer */
+/* footer--------------- */
 #footer {
   padding: 0 0 30px 0px;
   color: white;
   font-size: 14px;
-  background-color:  rgba(16, 215, 241, 0.8);
+  background-image:radial-gradient(circle, #1d4f7a, #000000) ;
   margin-top: 100px;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background-color: rgba(16, 215, 241, 0.8);
+  background-image:radial-gradient(circle, #1d4f7a, #000000) ;
+  /* background-color: rgba(16, 215, 241, 0.8); */
   color: white;
 }
 #footer .footer-top .footer-contact {
